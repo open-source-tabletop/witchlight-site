@@ -44,6 +44,7 @@ ul {
 blockquote {
     font-family: $heading-font-family;
     font-size: 1.25rem;
+    border-color: #0000005e;
     p {
         font-style: italic;
     }
@@ -85,4 +86,14 @@ blockquote {
 
   .shaded {
     background-color: #0000005e;
+  }
+
+  main { 
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }

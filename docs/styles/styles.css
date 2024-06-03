@@ -37,6 +37,7 @@ ul {
 blockquote {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.25rem;
+  border-color: rgba(0, 0, 0, 0.368627451);
 }
 blockquote p {
   font-style: italic;
@@ -77,6 +78,16 @@ blockquote p {
 
 .shaded {
   background-color: rgba(0, 0, 0, 0.368627451);
+}
+
+main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
