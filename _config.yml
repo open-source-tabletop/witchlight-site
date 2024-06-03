@@ -6,3 +6,8 @@ defaults:
       layout: "default"
 excerpt_separator: "<!-- more -->"
 destination: "./docs"
+collections:
+  sketchbook:
+    output: true
+  explore:
+    output: true

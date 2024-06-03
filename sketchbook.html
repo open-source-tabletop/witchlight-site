@@ -1,0 +1,9 @@
+---
+title: Sketchbook
+permalink: /sketchbook/
+---
+
+{% for page in site.sketchbook %}
+  <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+  <p>{{ page.content | markdownify }}</p>
+{% endfor %}

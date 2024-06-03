@@ -7,6 +7,8 @@ html {
 
 body {
   background-image: url("/assets/images/layout/bg-1.jpg");
+  background-size: contain;
+  background-color: #13171f;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
@@ -88,6 +90,29 @@ main {
 footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.grid.gallery > div {
+  margin: 1rem;
+}
+.grid.gallery > div .image {
+  overflow: hidden;
+  display: inline-block;
+}
+.grid.gallery > div .image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -moz-transition: -moz-transform 0.2s ease-out !important;
+  -webkit-transition: -webkit-transform 0.2s ease-out !important;
+  -ms-transition: -ms-transform 0.2s ease-out !important;
+  transition: transform 0.2s ease-out !important;
+}
+.grid.gallery > div .image:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=styles.css.map */

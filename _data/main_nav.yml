@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Sketchbook
+  link: /sketchbook
+- name: Explore
+  link: /explore
