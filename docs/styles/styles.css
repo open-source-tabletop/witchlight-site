@@ -91,13 +91,50 @@ footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+footer p {
+  text-align: center;
+  color: #4a5e55;
+  font-size: 0.9rem;
+  margin: 0;
+}
+footer p a {
+  text-decoration: none;
+  color: #4a5e55;
+}
+
+.container.lead {
+  margin: 0 auto 4rem;
+  padding: 4rem 0;
+}
+.container.lead h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #00b478;
+}
+.container.alt {
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.container.alt h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #00b478;
+  margin-bottom: 2rem;
+}
+.container.callouts .grid {
+  margin-bottom: 2rem;
+}
+.container.callouts .grid > div {
+  padding: 1rem;
+}
 
 .grid.gallery > div {
   margin: 1rem;
 }
 .grid.gallery > div .image {
   overflow: hidden;
-  display: inline-block;
+  max-width: 350px;
+  margin: 0 auto;
 }
 .grid.gallery > div .image img {
   display: block;
@@ -113,6 +150,12 @@ footer {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.grid .craftimage img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

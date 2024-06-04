@@ -2,7 +2,9 @@
 --- 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
 
+$primary-colour: #00b478;
 $body-font-colour:#f7f2ea;
+$body-font-alt:#4a5e55;
 $body-font-family: "Barlow", sans-serif;
 $heading-font-family: "Cormorant Garamond", serif;
 
@@ -56,7 +58,7 @@ blockquote {
     .container {
       max-width:510px;
       padding-right:0;
-      padding-left:0
+      padding-left:0;
     }
   }
   @media (min-width:768px) {
@@ -90,6 +92,7 @@ blockquote {
     background-color: #0000005e;
   }
 
+
   main { 
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -98,14 +101,53 @@ blockquote {
   footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    p {
+      text-align: center;
+      color: $body-font-alt;
+      font-size: 0.9rem;
+      margin: 0;
+      a {
+        text-decoration: none;
+        color: $body-font-alt;
+      }
+    }
   }
 
+  .container {
+    &.lead {
+      margin: 0 auto 4rem;
+      padding: 4rem 0;
+      h1 {
+        font-size: 4rem;
+        text-align: center;
+        color: $primary-colour;
+      }
+    }
+    &.alt {
+      margin: 0 auto;
+      padding: 3rem 0;
+      h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: $primary-colour;
+        margin-bottom: 2rem;
+      }
+
+    }
+    &.callouts .grid {
+      margin-bottom: 2rem;
+      > div {
+        padding: 1rem;
+      }
+    }
+  }
 
   .grid.gallery > div {
     margin: 1rem;
     .image {
       overflow: hidden;
-      display: inline-block;
+      max-width: 350px;
+      margin: 0 auto;
     }
     .image img {
       display: block;
@@ -122,4 +164,10 @@ blockquote {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
     }
+  }
+
+  .grid .craftimage img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto
   }
