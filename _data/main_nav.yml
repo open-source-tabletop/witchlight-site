@@ -1,6 +1,6 @@
-- name: Home
-  link: /
+- name: The Game
+  link: /game
+- name: The World
+  link: /explore
 - name: Sketchbook
   link: /sketchbook
-- name: Explore
-  link: /explore
