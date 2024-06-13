@@ -35,6 +35,10 @@ h6 {
     color: $body-font-colour;
 }
 
+hr {
+  border-color: $body-font-alt;
+}
+
 address,
 dl,
 ol,
@@ -142,12 +146,11 @@ blockquote {
     }
   }
 
+
   .grid.gallery > div {
-    margin: 1rem;
+    margin: 0 0 1rem 0;
     .image {
       overflow: hidden;
-      max-width: 350px;
-      margin: 0 auto;
     }
     .image img {
       display: block;

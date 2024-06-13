@@ -9,5 +9,6 @@ destination: "./docs"
 collections:
   sketchbook:
     output: true
+    sort_by: order
   explore:
     output: true

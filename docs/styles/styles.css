@@ -26,6 +26,10 @@ h6 {
   color: #f7f2ea;
 }
 
+hr {
+  border-color: #4a5e55;
+}
+
 address,
 dl,
 ol,
@@ -129,12 +133,10 @@ footer p a {
 }
 
 .grid.gallery > div {
-  margin: 1rem;
+  margin: 0 0 1rem 0;
 }
 .grid.gallery > div .image {
   overflow: hidden;
-  max-width: 350px;
-  margin: 0 auto;
 }
 .grid.gallery > div .image img {
   display: block;
