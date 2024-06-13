@@ -1,6 +1,8 @@
-- name: The Game
+- name: blog
+  link: /blog
+- name: Game
   link: /game
-- name: The World
+- name: Explore
   link: /explore
 - name: Sketchbook
   link: /sketchbook
