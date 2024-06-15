@@ -2,7 +2,7 @@
 /* VARIABLES */
 /* LAYOUT */
 body {
-  background-image: url("/assets/images/layout/bg-1.jpg");
+  background-image: url("/assets/images/layout/bg-1.png");
   background-size: contain;
   background-color: #13171f;
   background-repeat: no-repeat;
@@ -172,6 +172,7 @@ blockquote p:last-of-type {
   overflow: hidden;
 }
 .grid.gallery > div .image img {
+  padding: 0;
   display: block;
   width: 100%;
   height: auto;
