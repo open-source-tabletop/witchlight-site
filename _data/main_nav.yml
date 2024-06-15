@@ -1,8 +1,10 @@
-- name: blog
-  link: /blog
+- name: Home
+  link: /
 - name: Game
   link: /game
 - name: Explore
   link: /explore
 - name: Sketchbook
   link: /sketchbook
+- name: News
+  link: /news

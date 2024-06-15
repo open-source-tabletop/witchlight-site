@@ -1,23 +1,19 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.jade.min.css" />
-    <link rel="stylesheet" href="/styles/styles.css">
-    <title>{{ page.title }}</title>
-</head>
+{% include head.html %}
 
 <body>
-    <div class="shaded">
-        <header class="container">
+    <header class="shaded">
+        <div class="container">
             <nav>
-                <ul></ul>
                 {% include main_nav.html %}
             </nav>
-        </header>
-    </div>
+        </div>
+        <div class="container logo-large">
+            <img src="/assets/images/layout/largelogo.png">
+        </div>
+    </header>
     {{ content }}
     {% include footer.html %}
 </body>
