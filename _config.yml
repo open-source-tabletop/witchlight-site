@@ -13,13 +13,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "single"
+      layout: "default"
   -
     scope:
       path: ""
       type: "explore"
     values:
-      layout: "single"
+      layout: "default"
 excerpt_separator: "<!-- more -->"
 destination: "./docs"
 collections:

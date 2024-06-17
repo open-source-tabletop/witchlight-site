@@ -1,5 +1,6 @@
 ---
-title: Witchcraft
+title: The Craft of Witches
+category: Witchcraft
 ---
 
 The connection a witch has to the magic in the world is always very personal, and can manifest in a myriad of ways. That being said the most common forms of witchcraft can be broadly categorised into 5 different types, known as crafts.

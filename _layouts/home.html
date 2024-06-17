@@ -1,20 +1,24 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 
 {% include head.html %}
 
 <body>
-    <header class="shaded">
-        <div class="container">
-            <nav>
-                {% include main_nav.html %}
-            </nav>
+    <header class="container">
+        <div class="logo-large">
+            <a href="/"><img src="/assets/images/layout/largelogo.png"></a>
         </div>
-        <div class="container logo-large">
-            <img src="/assets/images/layout/largelogo.png">
-        </div>
+        <nav>
+            {% include main_nav.html %}
+        </nav>
     </header>
-    {{ content }}
+
+    <main>
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
     {% include footer.html %}
 </body>
 
