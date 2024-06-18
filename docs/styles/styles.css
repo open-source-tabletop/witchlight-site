@@ -111,6 +111,12 @@ article {
 nav ul.site-nav {
   margin: 0 auto;
 }
+nav ul.site-nav a {
+  text-decoration: none;
+}
+nav ul.site-nav .active {
+  font-weight: 700;
+}
 
 .logo-small {
   text-align: center;
@@ -145,6 +151,10 @@ nav ul.site-nav {
 
 @media (min-width: 768px) {
   .grid.explore {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+  }
+  .grid.explore-small {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1rem;
   }

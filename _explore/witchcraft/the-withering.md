@@ -2,12 +2,14 @@
 title: The Withering
 category: Witchcraft
 order: 1
+featured: true
+description: "In the decaying realm of the Umbra, where witches pursue forbidden power, a perilous gamble unfolds amidst potent magic and arcane secrets, exacting a toll on sanity with every passing moment."
 ---
 
-While The Umbra is rich with power and contains hidden knowledge there is a risk to any witches that spend time there. While witches are connected to magic they are not creatures of magic. The same power the witches seek to harness will also slowly drive them insane. After even a few hours in the fae realm a witch can sense their mind wandering, their grip on what is real beginning to unravel. With a strong mind a witch can spend no more than a day and night there before risking serious harm.
+In the decaying realm of the [Umbra](/explore/locations/the-umbra/), where witches seek forbidden power and hidden truths, lies a perilous gamble. Though it brims with potent magic and arcane secrets, it exacts a toll on those who dare to linger. Witches, tethered to magic but not born of it, risk a descent into madness with every passing moment. Even a brief visit within its fae embrace can unravel the mind, blurring the line between reality and delusion. Only the strongest-willed can endure a day and night before the fabric of their sanity begins to tear.
 
-Of course there are witches that find themselves lost, stuck in some way, and at the mercy of the withering. They first lose their focus and their memory becomes unreliable, they forget their purpose or remember it completely differently. Escape from the Umbra at this point is unlikely but some do come back, utterly changed, remaining distant, with twisted recollections and pursuits.
+Yet some witches find themselves ensnared, trapped by the withering decay. First, their focus wanes, memories blur, and their purpose slips into shadows. Escape becomes a distant hope, though rare souls return forever changed—haunted, their recollections twisted and ambitions distorted.
 
-As more time passes the witch will become even more detached from their mortal existence. They will be sustained by the raw magic while forgetting to eat or drink. Their own craft will warp their form irrevocably and they will succumb to their most basic desires. Most become twisted creatures that stalk the wilds of the shadow realm, others become as one with the world around them and become a part of the world around them.
+As time stretches onward, these lost souls grow further detached from their mortal selves. Nourished by raw magic alone, they forget mortal needs like food and drink. Their very bodies contort under the strain of their own sorcery, their desires twisted beyond recognition. Many devolve into twisted beings, prowling the shadowed wilds of the Umbra, while others meld seamlessly into the fabric of the realm itself.
 
-Some witches will deliberately strand rivals, or even mortals in the Umbra, returning occasionally to watch them suffer as the effects of the withering take hold.
+Certain witches, driven by malice or ambition, strand rivals or even unwitting mortals within the Umbra's grasp. They return intermittently, relishing the suffering wrought by the relentless withering—a grim spectacle amid the twilight's dance.

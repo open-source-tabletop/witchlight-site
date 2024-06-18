@@ -1,6 +1,9 @@
 ---
 title: Puca
 category: Enchanted Creatures
+order: 5
+featured: true
+description: "Puca are small woodland sprites with slender frames, pale green skin, and delicate wings like translucent leaves, their petal-adorned heads changing with the seasons."
 ---
 
 Puca are small woodland sprites standing around the height of a child, with slender frames and pale green skin resembling young plants. They sport delicate wings like translucent leaves and heads adorned with petals or leaves that change with the seasons or emotions. Their large, expressive eyes shimmer like dewdrops, conveying deep emotion and wisdom.

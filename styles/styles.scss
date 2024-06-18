@@ -121,6 +121,12 @@ article {
 
 nav ul.site-nav {
     margin: 0 auto;
+    a {
+      text-decoration: none;
+    }
+    .active {
+      font-weight: 700;
+    }
 }
 
 .logo-small {
@@ -162,6 +168,10 @@ nav ul.site-nav {
   .grid.explore {
       grid-template-columns: 1fr 1fr;
       margin-bottom: 1rem;
+  }
+  .grid.explore-small {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
   }
 }
 

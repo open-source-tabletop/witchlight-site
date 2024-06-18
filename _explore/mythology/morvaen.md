@@ -2,6 +2,8 @@
 title: Morvaen The Devourer
 category: Mythology
 order: 1
+featured: true
+description: "Morvaen, an ancient witch fueled by innate magic, grew to terrible strength, her relentless pursuit twisted her form and brought death and decay to the mortal realm."
 ---
 
 Morvaen was an ancient witch that discovered her craft through the inate magic that resides in all living things. This abundant source of power caused her abilities to grow rapidly, and with them, her insatiable hunger for more. However, her relentless pursuit of power came at a dire cost. As she tapped into the life force around her, she withered and killed all living things in her vicinity, and this dark practice eventually twisted and corrupted her own form.

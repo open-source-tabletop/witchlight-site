@@ -1,6 +1,8 @@
 ---
 title: The Craft of Witches
 category: Witchcraft
+featured: true
+description: "The magic used by Witches is deeply connected to both the mortal and fae realms, and each discovers their own unique connection to it, called their craft."
 ---
 
 The connection a witch has to the magic in the world is always very personal, and can manifest in a myriad of ways. That being said the most common forms of witchcraft can be broadly categorised into 5 different types, known as crafts.

@@ -1,6 +1,9 @@
 ---
 title: The Curse of Morvaen
 category: Witchcraft
+order: 2
+featured: true
+description: "Morvaen, discovering her magic intertwined with life itself, inadvertently became a scourge upon the natural world, leading to a curse that now shadows all who practice magic."
 ---
 
 In ages past, the formidable witch [Morvaen](/explore/mythology/morvaen.html) discovered that her craft intertwined with the life force that permeated all living beings. Drawing upon this primal energy, she unwittingly became a scourge upon the natural world, compelling a rare assembly of witches to unite and bind her with a potent curse. While the curse worked, Morvaen's unparalleled power rebounded, casting a shadow that now taints all who wield magic.

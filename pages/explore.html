@@ -1,0 +1,79 @@
+---
+title: Explore the World of Witchlight
+permalink: /explore
+---
+
+<p>Uncover the rich history, enigmatic characters, and hidden knowledge that make up the world of Witchlight. From
+  ancient legends to tales of mysterious witches, this section offers a deeper understanding of the hidden world that
+  awaits you.</p>
+
+<div class="grid explore">
+  <div>
+    <article>
+      <h2>Mythology</h2>
+      <p>The world of Witchlight is ancient, with stories stretching far back into myth and mysteries waiting to be solved.</p>
+      <p><a href="/explore/mythology">See all Mythology articles &raquo;</a></p>
+      <h4>Featured Articles</h4>
+      {% assign explore_items = site.explore | where: "category", "Mythology" | where: "featured", true %}
+      {% assign sorted = explore_items | sort: 'order' %}
+      <ul>
+        {% for item in sorted %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+  <div>
+    <article>
+      <h2>Witchcraft</h2>
+      <p>The magic wielded by Witches is varied and complex, shaping both the mortal and fae realms alike.</p>
+      <p><a href="/explore/witchcraft">See all Witchcraft articles &raquo;</a></p>
+      <h4>Featured Articles</h4>
+      {% assign explore_items = site.explore | where: "category", "Witchcraft" | where: "featured", true %}
+      {% assign sorted = explore_items | sort: 'order' %}
+      <ul>
+        {% for item in sorted %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+  <div>
+    <article>
+      <h2>Enchanted Creatures</h2>
+      <p>While rarely seen by mortals, Witches are aware of, and make alliances with all manner of enchanted creatures.</p>
+      <p><a href="/explore/enchanted-creatures">See all Enchanted Creatures articles &raquo;</a></p>
+      <h4>Featured Articles</h4>
+      {% assign explore_items = site.explore | where: "category", "Enchanted Creatures" | where: "featured", true %}
+      {% assign sorted = explore_items | sort: 'order' %}
+      <ul>
+        {% for item in sorted %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+  <div>
+    <article>
+      <h2>Locations</h2>
+      <p>The world of Witchlight is ancient, with stories stretching far back into myth and mysteries waiting to be solved.</p>
+      <p><a href="/explore/locations">See all Locations articles &raquo;</a></p>
+      <h4>Featured Articles</h4>
+      {% assign explore_items = site.explore | where: "category", "Locations" | where: "featured", true %}
+      {% assign sorted = explore_items | sort: 'order' %}
+      <ul>
+        {% for item in sorted %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+</div>

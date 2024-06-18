@@ -1,6 +1,8 @@
 ---
 title: Boglins
 category: Enchanted Creatures
+featured: true
+description: "In the murky swamps of the mortal realms, the warty-skinned Boglins, with their toad-like faces, navigate the treacherous terrain with surprising agility and mischievous charm."
 ---
 
 In the murk of the many swampy areas of the mortal realms there lurks a squat creature, typically standing around 4-5 feet, the Boglins. Their rough, warty skin blends seamlessly with the greens and browns of their boggy habitat, where they navigate with surprising agility through treacherous terrain. With toad-like faces adorned by bulbous eyes and wide mouths, Boglins possess a distinctive charm that reflects their mischievous yet endearing nature.

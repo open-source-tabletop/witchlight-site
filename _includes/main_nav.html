@@ -1,7 +1,9 @@
 <ul class="site-nav">
+    <li {% if page.url == "/" %} class="active"{% endif %}><a href="/">Home</a></li>
     {% for item in site.data.main_nav %}
-    <li>
-        <a href="{{ item.link }}">{{ item.name }}</a>
-    </li>
+        <li{% if page.url contains item.link %} class="active"{% endif %}>
+            <a href="{{ item.link }}">{{ item.name }}</a>
+        </li>
     {% endfor %}
 </ul>
+

@@ -2,6 +2,8 @@
 title: Elaris, Mother of Witches
 category: Mythology
 order: 1
+featured: true
+description: "Elaris, an ethereal figure of ancient tales, beckons young witches with veiled promises of guidance for their tempestuous craft, her motivations shrouded in inscrutable purpose."
 ---
 
 The most ancient tales of the early tribes weave stories of Elaris, an ethereal figure cloaked in mystery and revered as perhaps the first witch. Legends speak of her emergence from the depths of time, her origins obscured by the long passage of ages. For witches, the story of Elaris transcends the past; she is known to appear before young witches grappling with the tempestuous nature of their craft. To these souls, she extends guidance, a beckoning hand veiled in promise. But every boon she bestows exacts its price, often a burden too heavy for those who accept her aid.
