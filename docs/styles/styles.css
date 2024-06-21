@@ -144,32 +144,6 @@ nav ul.site-nav .active {
   box-shadow: 0 3px 6px 0 rgba(70, 57, 46, 0.19), 0 4px 15px 0 rgba(70, 57, 46, 0.19);
 }
 
-/* EXPLORE */
-.explore article {
-  height: 100%;
-}
-
-@media (min-width: 768px) {
-  .grid.explore {
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 1rem;
-  }
-  .grid.explore-small {
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 1rem;
-  }
-}
-.explore ul {
-  padding: 0;
-  margin: 0;
-}
-.explore ul li {
-  list-style-type: none;
-}
-.explore ul li:last-of-type {
-  margin: 0;
-}
-
 /* FOOTER */
 .copyright {
   text-align: center;

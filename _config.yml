@@ -20,7 +20,7 @@ defaults:
       path: ""
       type: "explore"
     values:
-      layout: "explore"
+      layout: "default"
 excerpt_separator: "<!-- more -->"
 destination: "./docs"
 collections:
