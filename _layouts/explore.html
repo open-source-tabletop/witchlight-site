@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+
+    <main>
+        <div class="container">
+            <h1 class="title">{{ page.title }}</h1>
+            {% assign parts = content | split: "<!-- more -->" %}
+            
+    {{ parts[1] }}
+        </div>
+    </main>
+
+    {% include footer.html %}
+</body>
+
+</html>
