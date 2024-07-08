@@ -9,9 +9,7 @@
     <main>
         <div class="container">
             <h1 class="title">{{ page.title }}</h1>
-            {% assign parts = content | split: "<!-- more -->" %}
-            
-    {{ parts[1] }}
+            {{ page.content }}
         </div>
     </main>
 
